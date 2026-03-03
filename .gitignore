@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Dotenv file
+.env
+
+# Cargo build artifacts (keep target/idl and target/types)
+target/.rustc_info.json
+target/debug/
+target/release/
+target/deploy/
+target/sbf-solana-solana/
